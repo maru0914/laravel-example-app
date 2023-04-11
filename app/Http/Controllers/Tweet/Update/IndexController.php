@@ -12,6 +12,7 @@ class IndexController extends Controller
      */
     public function __invoke(Request $request)
     {
-        //
+        $tweetId = (int) $request->route('tweetId');
+        dd($tweetId);
     }
 }
