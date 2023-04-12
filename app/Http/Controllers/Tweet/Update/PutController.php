@@ -18,6 +18,6 @@ class PutController extends Controller
         $tweet->save();
         return redirect()
             ->route('tweet.update.index', ['tweetId' => $tweet->id])
-            ->with('message.success', 'つぶやきを編集しました');
+            ->with('feedback.success', 'つぶやきを編集しました');
     }
 }
