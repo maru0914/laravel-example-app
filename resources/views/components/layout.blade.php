@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
     <script src="{{ mix('/js/app.js') }}"></script>
     <title>{{ $title ?? 'つぶやきアプリ' }}</title>
+    @stack('css')
 </head>
 
 <body class="bg-gray-50">
