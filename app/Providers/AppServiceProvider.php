@@ -2,9 +2,9 @@
 
 namespace App\Providers;
 
-use App\Models\ImageUpload\CloudinaryImageManager;
-use App\Models\ImageUpload\ImageManagerInterface;
-use App\Models\ImageUpload\LocalImageManager;
+use app\Modules\ImageUpload\CloudinaryImageManager;
+use app\Modules\ImageUpload\ImageManagerInterface;
+use app\Modules\ImageUpload\LocalImageManager;
 use Cloudinary\Cloudinary;
 use Illuminate\Support\ServiceProvider;
 

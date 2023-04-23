@@ -2,7 +2,7 @@
 
 namespace Tests\Unit\Services;
 
-use App\Models\ImageUpload\ImageManagerInterface;
+use App\Modules\ImageUpload\ImageManagerInterface;
 use App\Services\TweetService;
 use PHPUnit\Framework\TestCase;
 use Mockery;
