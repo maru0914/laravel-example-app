@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace app\Modules\ImageUpload;
+namespace App\Modules\ImageUpload;
 
 use Illuminate\Support\Facades\Storage;
 

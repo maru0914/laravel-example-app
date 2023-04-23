@@ -4,7 +4,7 @@ namespace App\Services;
 
 use App\Models\Tweet;
 use App\Models\Image;
-use app\Modules\ImageUpload\ImageManagerInterface;
+use App\Modules\ImageUpload\ImageManagerInterface;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\DB;
