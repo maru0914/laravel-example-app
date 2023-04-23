@@ -41,10 +41,9 @@
             @foreach ($images as $image)
                 <div class="w-1/6 px-2 mt-5">
                     <a @click="$dispatch('img-modal', { imgModalSrc:
-                    '{{ asset('storage/images/' . $image->name) }}' })"
+                    '{{ image_url($image->name) }}' })"
                         class="cursor-pointer">
-                        <img src="{{ asset('storage/images/' . $image->name) }}" alt="{{ $image->name }}"
-                            class="object-fit w-full">
+                        <img src="{{ image_url($image->name) }}" alt="{{ $image->name }}" class="object-fit w-full">
                     </a>
                 </div>
             @endforeach
